@@ -31,9 +31,4 @@ public class OrderController {
         return new ResponseEntity<>(response, HttpStatus.CREATED);
     }
  
-    // Optional: Health check endpoint
-    @GetMapping("/ping")
-    public String ping() {
-        return "Order service is up!";
-    }
 }
